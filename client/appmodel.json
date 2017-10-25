@@ -42,5 +42,31 @@
         }
       }
     }
+  },
+  "viewissues": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "issuselist": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ID": {
+              "type": "string"
+            },
+            "Status": {
+              "type": "string"
+            },
+            "Category": {
+              "type": "string"
+            },
+            "Summary": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
