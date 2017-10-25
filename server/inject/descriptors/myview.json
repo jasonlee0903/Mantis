@@ -6,6 +6,11 @@
       "selector": ".subtle",
       "control": "exists",
       "selectContains": "Assigned to Me"
+    },
+    "viewissuesLink": {
+      "type": "action",
+      "selector": ".subtle",
+      "control": "action.link"
     }
   },
   "connect": []
