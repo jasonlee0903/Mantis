@@ -9,8 +9,9 @@
     },
     "viewissuesLink": {
       "type": "action",
-      "selector": "a[href=*'view_all_bug_page']",
-      "control": "action.link"
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": [
