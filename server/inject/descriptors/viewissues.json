@@ -53,7 +53,8 @@
     "isViewissues": {
       "type": "identifier",
       "selector": ".floatleft",
-      "control": "property.innerText"
+      "control": "exists",
+      "selectContains": "Viewing Issues"
     }
   },
   "connect": []
