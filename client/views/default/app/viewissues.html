@@ -9,25 +9,25 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div data-comp-id="div.1">
+        <div data-comp-id="div.1" ng-repeat="item in data.issuselist">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.1">ID</div>
+                    <div data-comp-id="text.1" ng-bind="item.ID">ID</div>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
                 <div class="col" data-comp-id="column.2">
                     <i class="icon ion-person" data-comp-id="icon.1"></i>
-                    <span data-comp-id="text.2">Status</span>
+                    <span data-comp-id="text.2" ng-bind="item.Status">Status</span>
                 </div>
-                <div class="col" data-comp-id="column.4">
+                <div class="col" data-comp-id="column.3">
                     <i class="icon ion-bookmark" data-comp-id="icon.2"></i>
-                    <span data-comp-id="text.3">Category</span>
+                    <span data-comp-id="text.3" ng-bind="item.Category">Category</span>
                 </div>
             </div>
             <div class="row" data-comp-id="row.3">
-                <div class="col" data-comp-id="column.3">
-                    <div data-comp-id="text.4">Summary</div>
+                <div class="col" data-comp-id="column.4">
+                    <div data-comp-id="text.4" ng-bind="item.Summary">Summary</div>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
         dynamic-floating-footer="">
         <div class="row" data-comp-id="row.4" style="padding: 0px;">
             <div class="col text-right" data-comp-id="column.5" style="padding: 0px;">
-                <div class="footer-button" data-comp-id="footerButton.2">
+                <div class="footer-button" data-comp-id="footerButton.1">
                     <button class="button icon button-round button-shadowed ion-plus-round"></button>
                     <div class="label"></div>
                 </div>
